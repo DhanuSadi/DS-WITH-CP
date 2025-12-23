@@ -1,5 +1,3 @@
-
-
 class Main {
     public static void main(String[] args) {
         
@@ -10,7 +8,7 @@ class Main {
             System.out.println(num[i]);
         }
         
-        String[] names = {"jeet","raj","sunil"};
+        String[] names = {"sai","raju","sony"};
         for(int i=0;i<names.length;i++){
             System.out.println(names[i]);
         }
@@ -21,16 +19,17 @@ class Main {
             System.out.println(num1[i]);
         }
         
-        String[] names1 = new String[] {"J","raj","sunil"};
+        String[] names1 = new String[] {"chaitu","dhanu","dinesh"};
         for(int i=0;i<names1.length;i++){
             System.out.println(names1[i]);
         }
         
+        int[] da = new int[10];
+        da[0]=100;
+        da[da.length-1]=900;
+        for(int i=0;i<da.length;i++){
+            System.out.println(da[i]);
+        }
         
-        // Dynamic
-        
-        int [10] = 
-        
-        
-    }
-          }
+ }
+}
